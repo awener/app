@@ -5,5 +5,5 @@ app.get("/", function(req, res) {
   return res.status(200).end("TTT");
 });
 
-console.log("webhook much!");
+console.log("claws");
 app.listen(8085);
