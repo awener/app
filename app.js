@@ -2,7 +2,7 @@ const app = require('express')();
 
 
 app.get("/", function(req, res) {
-  return res.status(200).end("down?!?");
+  return res.status(200).end("deployed");
 });
 
 console.log("webhook much!");
